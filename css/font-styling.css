@@ -1,0 +1,24 @@
+h1 {
+    /* font-family digunakan untuk mengatur jenis font yang akan digunakan */
+    font-family: serif;
+    /* font-size digunakan untuk mengatur ukuran font */
+    font-size: 100px;
+    /* font-weight digunakan untuk mengatur ketebalan font */
+    font-weight: normal;
+    /* font-variant digunakan untuk mengatur caps */
+    font-variant: small-caps;
+    /* font-style digunakan untuk mengubah teks menjadi miring */
+    font-style: italic;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* line-height digunakan untuk mengatur jarak antar baris atau paragraf */
+    line-height: 40px;
+}
+
+h4 {
+    /* Contoh penulisan CSS font shorthand (singkatan) */
+    /* font: font-style(optional) font-variant(optional) font-weight(optional) font-size(wajib)/line-height(optional) font-family(waji) */
+    font: italic normal bold 16px/16px helvetica, arial, sans-serif;
+}
