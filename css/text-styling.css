@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    /* color untuk memberikan warna pada teks */
+    color: khaki;
+    /* text-align untuk mengatur format paragraf/teks */
+    text-align: center;
+    /* text-indent untuk mengatur indentasi pada paragraf/teks */
+    text-indent: 5px;
+    /* text-decoration untuk mengatur dekorasi pada teks */
+    text-decoration: line-through;
+    /* letter-spacing untuk mengatur spasi antar huruf */
+    letter-spacing: 10px;
+}
+
+p {
+    color: #ff56dd;
+    text-align: justify;
+    text-indent: 5rem;
+    /* text-transform untuk mengubah jenis huruf menjadi besar, kecil atau kapital */
+    text-transform: capitalize;
+    /* word-spacing untuk mengatur spasi antar kata */
+    word-spacing: 5px;
+}
