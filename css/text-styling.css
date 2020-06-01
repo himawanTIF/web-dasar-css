@@ -1,23 +1,22 @@
 h1 {
     font-family: 'Courier New', Courier, monospace;
     /* color untuk memberikan warna pada teks */
-    color: khaki;
+    color: #0772af;
     /* text-align untuk mengatur format paragraf/teks */
     text-align: center;
-    /* text-indent untuk mengatur indentasi pada paragraf/teks */
-    text-indent: 5px;
     /* text-decoration untuk mengatur dekorasi pada teks */
-    text-decoration: line-through;
+    text-decoration: overline;
     /* letter-spacing untuk mengatur spasi antar huruf */
-    letter-spacing: 10px;
+    letter-spacing: 4px;
 }
 
 p {
-    color: #ff56dd;
+    color: rgb(84, 4, 102);
     text-align: justify;
-    text-indent: 5rem;
+    /* text-indent untuk mengatur indentasi pada paragraf/teks */
+    text-indent: 5px;
     /* text-transform untuk mengubah jenis huruf menjadi besar, kecil atau kapital */
-    text-transform: capitalize;
+    text-transform: lowercase;
     /* word-spacing untuk mengatur spasi antar kata */
     word-spacing: 5px;
 }
