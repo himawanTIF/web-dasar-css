@@ -1,0 +1,10 @@
+body {
+    /* Mengatur warna pada background */
+    background-color: aqua;
+    /* Mengatur gambar yang akan digunakan pada background */
+    background-image: url(gambar/wonosobo-background-temp3.jpg);
+    /* Mengatur posisi gambar pada background */
+    /* background-position: ; */
+    /* Mengatur jenis pengulangan gambar pada background */
+    background-repeat: repeat-x;
+}
