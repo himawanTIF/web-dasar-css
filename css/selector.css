@@ -1,0 +1,49 @@
+/* Selector Elemen HTML */
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2 {
+    text-decoration: line-through;
+}
+
+h1 {
+    color: yellowgreen;
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+ul li a {
+    color: darkgoldenrod;
+}
+
+ol li a {
+    color: darkgreen;
+}
+
+/* Selector dengan id (tidak disarankan) */
+/* id hanya boleh untuk 1 elemen */
+#p1 {
+    color: darkorange;
+}
+
+/* Selector dengan class (disarankan) */
+/* Dapat digunakan 2 nama class untuk 1 elemen */
+.p2 {
+    color: darkred;
+}
+
+/* Tetap 1 elemen dengan class p2 */
+.paragraf {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: line-through;
+}
+
+/* Contoh lain dengan class */
+p.paragraf {
+    font-size: 20px;
+}
