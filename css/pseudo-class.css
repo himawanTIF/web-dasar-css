@@ -1,0 +1,47 @@
+.hello:link {
+    color: orange;
+}
+
+.hello:hover {
+    color: royalblue;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: springgreen;
+}
+
+/* a anak pertama dari li */
+li:first-child a {
+    color: tomato;
+}
+
+/* a anak terakhir dari li */
+li:last-child a {
+    color: chartreuse;
+}
+
+/* n ke berapa? */
+li:nth-child(3n) a {
+    color: gold;
+}
+
+/* odd untuk ganjil, dan even untuk genap */
+li:nth-child(odd) a:hover {
+    color: red;
+}
+
+/* Paragraf pertama (elemen pertama yang dipilih) */
+p:first-of-type {
+    color: royalblue;
+}
+
+/* Paragraf terakhir (elemen terakhir yang dipilih) */
+p:last-of-type {
+    color: mediumvioletred;
+}
